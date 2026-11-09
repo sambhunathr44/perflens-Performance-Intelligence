@@ -136,12 +136,12 @@ This is a starter project for hands-on development and portfolio learning. Revie
 
 ### Performance Dashboard
 
-![PerfLens Performance Dashboard](./public/screenshots/dashboard.png)
+![PerfLens Performance Dashboard](./public/screenshots/Dashboard_Overview.png)
 
 ### Lighthouse Performance Comparison
 
-![Lighthouse Report Comparison](./public/screenshots/comparison.png)
+![Lighthouse Report Comparison](./public/screenshots/Performance_Comparison.png)
 
 ### Responsive Mobile Interface
 
-![PerfLens Mobile View](./public/screenshots/mobile.png)
+![PerfLens Mobile View](./public/screenshots/Mobile_Responsiveness.png)
