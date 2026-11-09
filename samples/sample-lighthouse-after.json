@@ -1,0 +1,14 @@
+{
+  "lighthouseVersion": "sample-only",
+  "finalDisplayedUrl": "https://sample-app.example/",
+  "fetchTime": "2026-09-28T11:00:00.000Z",
+  "configSettings": {"formFactor": "mobile"},
+  "categories": {"performance": {"score": 0.91}},
+  "audits": {
+    "largest-contentful-paint": {"numericValue": 2150},
+    "first-contentful-paint": {"numericValue": 1350},
+    "total-blocking-time": {"numericValue": 135},
+    "cumulative-layout-shift": {"numericValue": 0.048},
+    "offscreen-images": {"title": "Defer offscreen images", "description": "Lazy load below-the-fold images.", "details": {"overallSavingsMs": 125}}
+  }
+}
