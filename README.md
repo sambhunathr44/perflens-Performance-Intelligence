@@ -48,9 +48,17 @@ npm run start
 
 `npm run start` starts the production build at http://localhost:3000. Stop `npm run dev` first if it is still running.
 
+### Live Demo
+
+[Try PerfLens](https://perflens-performance-intelligence.vercel.app/)
+
+### Source Code
+
+[GitHub Repository](https://github.com/sambhunathr44/perflens-Performance-Intelligence)
+
 ## Try the demo
 
-The app initially loads two **synthetic demo audits** of the same page: before optimisation (62/100) and after optimisation (92/100). Try the comparison selectors and update budget settings. These numbers are fabricated *to illustrate the application*; they are **not** results from an actual website.
+The app initially loads two **synthetic demo audits** of the same page: before optimisation (62/100) and after optimisation (92/100). Try the comparison selectors and update budget settings. These numbers are fabricated _to illustrate the application_; they are **not** results from an actual website.
 
 You can also use the two illustrative files in `samples/` to exercise the importer. Their `lighthouseVersion` is explicitly `sample-only`, so the app labels them as samples.
 
@@ -66,7 +74,7 @@ You can also use the two illustrative files in `samples/` to exercise the import
 
 Lighthouse JSON is expected to have `categories.performance.score` and `audits.*.numericValue`, as described in the [Lighthouse results reference](https://github.com/GoogleChrome/lighthouse/blob/main/docs/understanding-results.md). Input JSON is validated and reduced into the app's domain model.
 
-**Important measurement notes:** Lighthouse reports represent *lab* measurements; they are not field data collected from actual users. TBT is a lab proxy for main-thread blocking and is not a replacement for real-user INP. Some Lighthouse versions may omit metrics; PerfLens displays `N/A` in those cases. Try multiple runs to account for run-to-run variability. Compare the same URL and device type for meaningful conclusions.
+**Important measurement notes:** Lighthouse reports represent _lab_ measurements; they are not field data collected from actual users. TBT is a lab proxy for main-thread blocking and is not a replacement for real-user INP. Some Lighthouse versions may omit metrics; PerfLens displays `N/A` in those cases. Try multiple runs to account for run-to-run variability. Compare the same URL and device type for meaningful conclusions.
 
 ## Application architecture
 
@@ -123,3 +131,17 @@ Potential v2 improvements:
 ## Author / usage
 
 This is a starter project for hands-on development and portfolio learning. Review and understand the implementation, make meaningful improvements, and publish only after testing it yourself.
+
+## Application Preview
+
+### Performance Dashboard
+
+![PerfLens Performance Dashboard](./public/screenshots/dashboard.png)
+
+### Lighthouse Performance Comparison
+
+![Lighthouse Report Comparison](./public/screenshots/comparison.png)
+
+### Responsive Mobile Interface
+
+![PerfLens Mobile View](./public/screenshots/mobile.png)
